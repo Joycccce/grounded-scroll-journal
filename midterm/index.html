@@ -5,21 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Joyce Li Jiao’s midterm learning diary and research photographs from Yusof Ishak House.">
   <title>Midterm Learning Diary | Grounded</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="reflection.js" defer></script>
-  <noscript><style>.opening-point, .paper-actions { display: none; } .reflection { display: block; position: static; width: min(92%, 48rem); max-height: none; margin: 0 auto 2rem; } .reading-scroll { max-height: none; }</style></noscript>
+  <link rel="stylesheet" href="style.css?v=2">
+  <script src="reflection.js?v=2" defer></script>
+  <noscript><style>.opening-point, .close-reflection { display: none; } .reflection { display: block; position: static; width: min(92%, 48rem); max-height: none; margin: 0 auto 2rem; } .reading-paper { max-height: none; }</style></noscript>
 </head>
 <body>
-  <header class="masthead">
-    <a class="brand" href="../" aria-label="Grounded final learning diary"><span class="brand-mark" aria-hidden="true"></span>Grounded</a>
-    <span class="location">Yusof Ishak House</span>
-  </header>
-
   <main class="index">
-    <h1>Midterm Learning Diary</h1>
-
     <section class="evidence" aria-label="Midterm research photographs">
-      <div class="scan-frame" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
       <div class="threads" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
 
       <figure class="photo photo-arrival">
@@ -49,67 +41,75 @@
 
       <div class="folded-paper">
         <div class="paper-underlay" aria-hidden="true"></div>
-        <div class="paper-face" aria-hidden="true">
-          <div class="paper-crease"></div>
-          <div class="paper-ink"><span>Field notes</span><i></i><i></i><i></i></div>
-          <div class="paper-corner"></div>
+        <div class="paper-face">
+          <div class="paper-ink">
+            <h1>mid-term learning diary</h1>
+            <p>Joyce（Li Jiao）</p>
+          </div>
+          <div class="paper-corner" aria-hidden="true"></div>
         </div>
         <button id="point" class="opening-point" type="button" aria-label="point: open the midterm reflection" aria-controls="reflection" aria-haspopup="dialog" aria-expanded="false">
           <span class="point-target" aria-hidden="true"><span class="point-ring"></span><span class="point-dot"></span></span>
           <span class="point-label">point</span>
         </button>
       </div>
-    </section>
 
-    <footer class="credit"><span>Midterm research</span><span>Joyce (Li Jiao)</span></footer>
+      <div class="clue-frames" aria-hidden="true">
+        <i class="clue clue-amber"></i>
+        <i class="clue clue-teal"></i>
+        <i class="clue clue-lilac"></i>
+        <i class="clue clue-red"></i>
+        <i class="clue clue-olive"></i>
+      </div>
+    </section>
   </main>
 
-  <dialog class="reflection" id="reflection" aria-label="Midterm learning diary">
+  <dialog class="reflection" id="reflection" aria-label="Midterm reflection">
     <div class="reading-paper">
-      <header class="paper-toolbar">
-        <span class="paper-location">Grounded / Midterm</span>
-        <div class="paper-actions">
-          <div class="languages" role="group" aria-label="Reading language">
-            <button type="button" data-language="en" aria-pressed="true" lang="en">EN</button>
-            <button type="button" data-language="zh" aria-pressed="false" lang="zh-Hans">中文</button>
-          </div>
-          <button type="button" id="close-reflection" class="close-reflection" aria-label="Close reflection"><span aria-hidden="true">×</span></button>
-        </div>
-      </header>
+      <div class="paper-folds" aria-hidden="true"></div>
+      <button type="button" id="close-reflection" class="close-reflection" aria-label="Close reflection"><span aria-hidden="true">×</span></button>
 
-      <div class="reading-scroll" id="reading-scroll">
-        <article class="reading-content" id="reflection-en" lang="en">
-          <h2 tabindex="-1">Fieldwork Shifted My Focus from Heat to How People Choose and Use Space</h2>
-          <p class="byline">Joyce (Li Jiao)</p>
+      <div class="reading-scroll" id="reading-scroll" tabindex="0" role="region" aria-label="Reflection text">
+        <article class="reading-content">
+          <ol class="letter-entries" role="list">
+            <li class="letter-entry">
+              <span class="letter-number" aria-hidden="true">1</span>
+              <div class="letter-entry-body">
+                <h2 class="letter-heading">Teamwork · I Could Speak Up Before I Had an Idea</h2>
+                <p>Early in the project, my teammates could spend over an hour bouncing ideas off each other. One would make a suggestion, and the other would challenge it and offer something new. I mostly listened. When they asked what I thought, I often said, “Nothing yet.” I was still figuring out the brief, and I didn’t know them well enough to feel comfortable interrupting. Looking back, I could have said what was actually on my mind: I wasn’t sure we were all trying to solve the same problem. Next time, I want to say where I’m stuck while the ideas are still on the table. That gives the team a chance to work through the uncertainty together.</p>
+              </div>
+            </li>
+            <li class="letter-entry">
+              <span class="letter-number" aria-hidden="true">2</span>
+              <div class="letter-entry-body">
+                <h2 class="letter-heading">Design Research · Mapping Changed What I Looked For</h2>
+                <p>In my first interview at Yusof Ishak House, what stuck with me was how hot the student found the building. I held on to that answer so tightly that I started thinking about cooling before I had a clear research question. Spending an afternoon walking through the building changed that. As we mapped the rooms on Level 4, I began to see the gap between what the building offered and what people could actually use. A student outside might be unsure whether they could enter an air-conditioned room. The Guitar Club could get a booking and still have to split practice into groups to make the room work. Putting those experiences alongside the map helped me see that comfort was one part of a larger question about which spaces people could find, enter, and use for what they came to do.</p>
 
-          <p>When we started the project, I knew very little about Yusof Ishak House (YIH). I approached someone who happened to be there and started a conversation. The thing I remembered most was how hot they found it. That gave me something concrete to hold on to, and I held on to it for too long. Soon, I was thinking about how to make the building cooler before I could explain what we were trying to understand about it.</p>
+                <div class="letter-photos">
+                  <figure class="letter-photo">
+                    <img src="photos/plan.webp" width="450" height="299" loading="lazy" alt="Level 4 floor plan annotated with room colours and observations">
+                    <figcaption>Level 4 research map</figcaption>
+                  </figure>
+                  <figure class="letter-photo">
+                    <img src="photos/entrance.webp" width="450" height="339" loading="lazy" alt="An indoor seating area viewed through its glass entrance">
+                    <figcaption>Room entrance observed on the walk</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </li>
+            <li class="letter-entry">
+              <span class="letter-number" aria-hidden="true">3</span>
+              <div class="letter-entry-body">
+                <h2 class="letter-heading">Research Bias · I Was Too Quick to Explain Away an Exception</h2>
+                <p>Several of our early interviewees had backgrounds similar to ours. When one Chinese student said she liked the building, we put it down to her having studied in the United States. I accepted that explanation without asking what she liked about it. Later, a German exchange student told us he preferred the open-air seating because he got cold in air-conditioned rooms. His practical concern was finding a working power outlet. That made me notice how differently I had treated the earlier answers. I pursued the complaint about heat and explained away the response that challenged it. In the next phase, I want to interview people with different reasons for being there, including those who choose to return and those who usually go elsewhere. When an answer surprises me, I want to ask one more question before settling on my own explanation.</p>
 
-          <p>At the same time, my teammates were already full of ideas. Sometimes they would spend more than an hour going back and forth. One would suggest something, the other would challenge it and offer something new, and I would sit there quietly. There were moments when it felt like watching a comedy. When they asked what I thought, I often said I had nothing. That was honest. I usually need more time to work out what the problem is before I have an idea, and I was still getting to know them, so interrupting felt awkward. Looking back, I wish I had said what I was actually thinking. I could have told them where I was stuck and asked what problem each of us thought we were solving.</p>
-
-          <p>One of our most useful decisions was to spend an afternoon walking through the building. We mapped Level 4 in detail, recording what the rooms were for and who could use them. That gave me something to compare with what we were hearing. A student studying outside might be unsure whether they could enter an air-conditioned room at all. An activity organiser could book a room and still have to change the activity to fit it. The Guitar Club, for instance, split practice into groups in a room it shared with the Dance Club. I had started with the temperature where one person happened to sit. Walking through the building made me ask what choices were actually available to different people. <a href="https://www.figma.com/design/HE9SkCeKyPjgQ1cn8M5Bca?node-id=359-781">Midterm research slides</a></p>
-
-          <p>The conversations with clubs also made me think differently about energy. I remember hearing that costs could be covered through club budgets or reimbursed. It made me wonder how visible those costs were to the person organising an activity, and whether that mattered more to their decisions than we had assumed. I left that as a question. We had heard how some groups handled costs, and I still wanted to understand when those costs actually affected what people did.</p>
-
-          <p>The second decision was to widen who we interviewed. Several of our early interviewees had backgrounds similar to ours. When one Chinese student told us she liked the building, we put it down to the fact that she had studied in the United States. I accepted that explanation without asking her what she actually liked. Later, a German exchange student told us he got cold in air-conditioned rooms and found the open-air seating comfortable. What he had trouble finding was a working power outlet. His answer made me think back to the earlier interview. I had treated the first complaint about heat as something worth investigating and the first positive response as an exception I could explain away. Both were clues about how people chose where to sit. I had only followed one of them. <a href="https://www.figma.com/design/HE9SkCeKyPjgQ1cn8M5Bca?node-id=197-255">Exchange student interview notes</a></p>
-
-          <p>At midterm, I still don't know exactly what we should design. I do have a better sense of what I want to do next. I want to speak up earlier when I can't see how an idea connects to the problem, and talk to people who choose to come back as well as people who tend to go somewhere else. The next time an interview answer surprises me, I want to ask one more question before I explain it to myself.</p>
-        </article>
-
-        <article class="reading-content" id="reflection-zh" lang="zh-Hans" hidden>
-          <h2 tabindex="-1">实地调研让我从关注「热不热」，转向理解人们如何选择和使用空间。</h2>
-          <p class="byline">Joyce (Li Jiao)</p>
-
-          <p>项目刚开始时，我对 Yusof Ishak House（YIH）几乎一无所知。我找了一位碰巧在场的人，聊起了这栋楼。那次访谈里，我记得最牢的是对方觉得这里很热。这让我有了一个具体的切入点，却也让我过早认定了方向。很快，我已经在想怎么让这里凉快一点，却还说不清我们究竟想了解这栋楼的什么。</p>
-
-          <p>与此同时，两位队友已经有了很多点子。有时他们一聊就是一个多小时，一个提出想法，另一个反驳，再抛出一个新点子，我就在旁边安静地听。有几次真的像在看喜剧。他们问我怎么想，我常常说「没想法」。这是真话。我通常需要多花一点时间弄清问题，才会有设计想法。当时我也还不熟悉他们，贸然打断会有点尴尬。现在回头看，我其实可以说出自己卡在哪里，再问问大家，我们各自以为自己正在解决什么问题。</p>
-
-          <p>我们做得很有用的一个决定，是花一整个下午走查这栋楼。我们详细画了四楼的空间图，记录每个房间的用途，以及谁可以使用。这样我就能把访谈和现场对起来看。坐在外面自习的学生，可能连自己能不能进空调房都不确定。活动组织者即使订到了房间，也可能得调整活动来适应场地。例如，吉他社和舞蹈社共用一个房间，练习时需要分组。我最初只记住了一个人坐的地方很热。走查之后，我开始问，不同的人来这里，实际上有哪些选择。 <a href="https://www.figma.com/design/HE9SkCeKyPjgQ1cn8M5Bca?node-id=359-781">中期调研幻灯片</a></p>
-
-          <p>社团访谈也让我换了个角度看能源问题。我记得我们听到，有些费用可以用社团经费支付，或者报销。这让我开始想，组织活动的人平时能不能感受到这些成本，这件事又会不会影响他们怎么用空间。当时我把它留作一个问题。我们听到了一些社团怎么处理费用，但我还想知道，这些费用究竟在什么情况下会影响人的实际决定。</p>
-
-          <p>第二个决定，是扩大访谈对象的范围。早期几位受访者的背景和我们比较相似。有一位中国学生说她喜欢这栋楼，我们很快把原因归到她以前在美国读过书。我接受了这个解释，却没有追问她具体喜欢什么。后来，一位德国交换生说，自己在空调房里容易觉得冷，反而觉得开放式座位区很舒服。他遇到的麻烦，是要找一个能用的插座。这让我想起之前那场访谈。我把第一次听到的「太热」当成值得追查的线索，却把第一次听到的正面反馈当成可以解释掉的例外。两种回答都能帮助我理解人们怎么选座位，只是当时我只顺着其中一条查了下去。 <a href="https://www.figma.com/design/HE9SkCeKyPjgQ1cn8M5Bca?node-id=197-255">交换生访谈记录</a></p>
-
-          <p>到中期，我还是说不准最后应该设计什么。不过，我更清楚下一步自己想做什么了。当我看不出一个点子和问题有什么关系时，我想早点说出来。我也想去听听那些愿意一再回来的人，以及那些通常会去别处的人怎么想。下一次听到出乎意料的回答，我想先多问一句，再给自己一个解释。</p>
+                <figure class="letter-photo letter-photo-single">
+                  <img src="photos/open-air.webp" width="420" height="322" loading="lazy" alt="Open-air seating and ceiling fans at Yusof Ishak House">
+                  <figcaption>Open-air seating at Yusof Ishak House</figcaption>
+                </figure>
+              </div>
+            </li>
+          </ol>
         </article>
       </div>
     </div>
