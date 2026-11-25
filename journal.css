@@ -70,6 +70,13 @@ a { color: inherit; }
   align-self: center;
 }
 
+.cover-intro {
+  max-width: 37ch;
+  margin: 1.5rem 0 0;
+  font-size: clamp(1.02rem, 1.38vw, 1.15rem);
+  line-height: 1.6;
+}
+
 h1, h2 {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
   font-weight: 400;
